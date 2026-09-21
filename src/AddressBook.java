@@ -8,6 +8,8 @@ public class AddressBook {
     public void addBuddy(BuddyInfo buddy){
         buddyInfos.add(buddy);
     }
+
+
     public void removeBuddy(BuddyInfo buddy){
         buddyInfos.remove(buddy);
     }
