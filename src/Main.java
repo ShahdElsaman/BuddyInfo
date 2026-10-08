@@ -3,6 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         BuddyInfo buddyInfo = new BuddyInfo("tom","Carleton", "613");
+        BuddyInfo buddyInfo = new BuddyInfo("Cat", "Ottawa", "343");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddyInfo);
         addressBook.removeBuddy(0);
